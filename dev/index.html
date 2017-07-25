@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Другофильтр</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="description">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+<body>
+    <h1>Другофильтр</h1>
+    <div class="container">
+        <div class="drugofilter">
+            <div class="drugofilter-header">
+                <h2>Выберите друзей</h2>
+            </div>
+            <div class="drugofilter-body">
+               <div class="drugofilter-body-search">
+                   <div class="col-sm-6 col-xs-6 left">
+                     <div class="wrap">
+                          <span class="glyphicon glyphicon-search"></span> 
+                          <input id="serchAllFriends" type="text" value="" placeholder="Начните вводить имя друга">
+                      </div>
+                   </div>
+                   <div class="col-sm-6 col-xs-6 right">
+                       <input id="serchAddFriends" type="text" value="" placeholder="Название">
+                   </div>
+               </div>
+                <div class="friends">
+                       <div class="col-sm-6 all-friends">
+                          <h2>Все друзья:</h2>
+                          <hr>
+                           <ul>
+                               <li>
+                                   <img src="img/gorban.jpg" alt="">
+                                   <h3>Александр Горбань</h3>
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                   <div class="clearfix"></div>
+                                   <hr>
+                               </li>
+                               <li>
+                                   <img src="img/marta.jpg" alt="">
+                                   <h3>Марта Шураева</h3>
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                   <div class="clearfix"></div>
+                                   <hr>
+                               </li>
+                               <li>
+                                   <img src="img/korovnikova.jpg" alt="">
+                                   <h3>Анастасия Коровникова</h3>
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                   <div class="clearfix"></div>
+                                   <hr>
+                               </li>
+                               <li>
+                                   <img src="img/procan.jpg" alt="">
+                                   <h3>Сергей Процан</h3>
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                   <div class="clearfix"></div>
+                                   <hr>
+                               </li>
+                               <li>
+                                   <img src="img/nizskovskaya.jpg" alt="">
+                                   <h3>Алена Низсковская</h3>
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                   <div class="clearfix"></div>
+                                   <hr>
+                               </li>
+                               <li>
+                                   <img src="img/savchuk.jpg" alt="">
+                                   <h3>Максим Савчук</h3>
+                                   <span class="glyphicon glyphicon-plus"></span>
+                                   <div class="clearfix"></div>
+                                   <hr>
+                               </li>
+                           </ul>
+                       </div>
+                       <div class="col-sm-6 add-friends">
+                         <h2>Лучшие друзья:</h2>
+                          <hr>
+                           <ul>
+
+                           </ul>
+                       </div>
+                   </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="drugofilter-footer">
+                <button type="button" id="save" class="btn btn-default">Сохранить</button>
+            </div>
+        </div>
+    </div>
+    <!-- build:js js/main.min.js -->   
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

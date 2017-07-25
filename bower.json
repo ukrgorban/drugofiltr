@@ -1,0 +1,22 @@
+{
+  "name": "wizzo",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "webmaster <dorproekt@ukr.net>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dorproekt/wizzo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dev/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
